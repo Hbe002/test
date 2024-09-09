@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="inp">Hello</div>
+   <div id="div"></div>
+   <button onclick="send()">Send</button>
+
+    <script>
+        const text = document.getElementById('inp')
+        const div = document.getElementById('div')
+    
+        
+        function send(){
+            div.innerText = inp.innerText;
+        }
+
+    </script>
+</body>
+</html>
